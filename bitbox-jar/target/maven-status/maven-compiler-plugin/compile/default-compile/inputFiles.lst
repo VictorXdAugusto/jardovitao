@@ -1,17 +1,14 @@
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\livia\prototipo\bitbox\ConexaoMySql.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\Suporte\SlackAlert.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\livia\prototipo\bitbox\Login.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\Conexao\ConexaoDocker.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\bitbox\jar\captura\dados\Registro.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\JdbcCommands\SelectUser.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\bitbox\jar\captura\dados\Login.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\Conexao\Conexao.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\livia\prototipo\bitbox\Empresa.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\livia\prototipo\bitbox\EmpresaRowMapper.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\JdbcCommands\Registro.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\livia\prototipo\bitbox\Conexao.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\JdbcCommands\TesteSlack.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\Entidades\Usuario.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\Entidades\UsuarioRowMapper.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\JdbcCommands\InsertMaquina.java
-C:\Users\augus\OneDrive\Área de Trabalho\jardovitao\bitbox-jar\src\main\java\JdbcCommands\InsertRegistro.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/JdbcCommands/Registro.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/Suporte/SlackAlert.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/livia/prototipo/bitbox/Conexao.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/JdbcCommands/InsertMaquina.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/bitbox/jar/captura/dados/Registro.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/livia/prototipo/bitbox/ConexaoMySql.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/Conexao/ConexaoDocker.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/bitbox/jar/captura/dados/Login.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/Entidades/Usuario.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/JdbcCommands/TesteSlack.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/JdbcCommands/InsertRegistro.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/Conexao/Conexao.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/Entidades/UsuarioRowMapper.java
+/home/victorpereira/Área de Trabalho/jar do vitao/jardovitao/bitbox-jar/src/main/java/JdbcCommands/SelectUser.java
