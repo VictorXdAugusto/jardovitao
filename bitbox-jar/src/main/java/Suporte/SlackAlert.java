@@ -10,7 +10,7 @@ import org.json.JSONObject;
 
 public class SlackAlert {
    private static HttpClient client = HttpClient.newHttpClient();
-    private static final String webhook = "https://hooks.slack.com/services/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";
+    private static final String webhook = "https://hooks.slack.com/services/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";
 
     public static void sendMessage(JSONObject content) throws IOException, InterruptedException {;
         HttpRequest request = HttpRequest.newBuilder(URI.create(webhook))

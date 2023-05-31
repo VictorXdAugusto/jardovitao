@@ -25,7 +25,7 @@ public class ConexaoMySql {
 
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 
-        dataSource.setUrl("jdbc:mysql://3.86.86.16:3306/BitBoxDB");
+        dataSource.setUrl("jdbc:mysql://0.0.0.0:3306/BitBoxDB");
 
         dataSource.setUsername("root");
 
