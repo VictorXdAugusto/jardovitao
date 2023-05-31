@@ -14,6 +14,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import livia.prototipo.bitbox.ConexaoMySql;
 import org.json.JSONObject;
 import org.springframework.jdbc.core.JdbcTemplate;
 
@@ -25,6 +27,9 @@ public class InsertRegistro {
 
    Conexao conexaoBanco = new Conexao();
    JdbcTemplate con = conexaoBanco.getConnection();
+
+   ConexaoMySql conexaoBancoMysql = new ConexaoMySql();
+   JdbcTemplate conMySql = conexaoBancoMysql.getConnection();
    Registro registro = new Registro();
 
 
@@ -64,8 +69,8 @@ public class InsertRegistro {
             con.update("EXEC inserir_registros ?, ?, ?, ?, ?, ?, ?, ?, ?",
                     formatoAmericano, cpuUso, ramUso,ramDisponivel,redeDownload ,redeUpload , discoUso, discoTotal, email);
 
-            // conMysql.update(String.format("insert into Registro values (null,'%s','%s','%s','%s','5845','8000','2seg','%s',3,5,2,1);", formattedDateTime, processador.getUso(), memoria.getEmUso(), memoria.getTotal(), processador.getUso()));
-            System.out.println("Inseriu Sql");
+            conMySql.update("CALL inserir_registros('" + formatoAmericano + "', " + cpuUso + ", " + ramUso + ", " + ramDisponivel + ", " + redeDownload + ", " + redeUpload + ", " + discoUso + ", " + discoTotal + ", '" + email + "')");
+
 
             try {
                SlackAlert.sendMessage(json);
